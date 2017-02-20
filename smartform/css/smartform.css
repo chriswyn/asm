@@ -1,0 +1,28 @@
+.gfield.default_brand_model_number {
+    display: none !important;
+}
+
+.gform_wrapper .gf_progressbar_percentage {
+    margin-bottom: 0px !important;
+}
+
+
+.pre_loader {
+	position: fixed !important;
+	z-index: 999999;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	display: block !important;
+	overflow: hidden  !important;
+	width: 100% !important;
+	height: 100% !important;
+	background-color: rgba(0, 0, 0); /* fall back */
+	background-color: rgba(0, 0, 0, 0.7);
+	background-image: url('../images/preloader.gif');  /* path to your new spinner */
+	background-repeat: no-repeat;
+	background-size: 60px 60px;
+	background-position: center center;
+   
+}
